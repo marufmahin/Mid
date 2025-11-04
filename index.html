@@ -6,7 +6,7 @@
     <title>Document</title>
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
 
@@ -101,17 +101,19 @@
 
       <!-- accordion -->
 
-      <div class="join join-vertical bg-base-100">
+      <div class="join join-vertical bg-base-100 mt-20 w-full">
   <div class="collapse collapse-arrow join-item border-base-300 border">
     <input type="radio" name="my-accordion-4" checked="checked" />
-    <div class="collapse-title font-semibold">How do I create an account?</div>
-    <div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
+    <div class="collapse-title font-semibold"> <span class="font-semibold text-3xl">01</span> Consultation</div>
+    <div class="collapse-content text-sm">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</div>
   </div>
+
   <div class="collapse collapse-arrow join-item border-base-300 border">
     <input type="radio" name="my-accordion-4" />
     <div class="collapse-title font-semibold">I forgot my password. What should I do?</div>
     <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow the instructions sent to your email.</div>
   </div>
+
   <div class="collapse collapse-arrow join-item border-base-300 border">
     <input type="radio" name="my-accordion-4" />
     <div class="collapse-title font-semibold">How do I update my profile information?</div>
